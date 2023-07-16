@@ -1,0 +1,16 @@
+
+
+public class StoreLocation extends Location
+{
+    public StoreLocation(String id, String address, double latitutde, double longitude)
+    {
+        super(id, address, latitude, longitude)
+    }
+
+    @Override
+    public String toString()
+    {
+        return "StoreLocation [id=" + id + ", address=" + address + ", latitude=" + latitude + ", longitude=" + longitude + "]";
+    }
+
+}
