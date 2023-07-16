@@ -1,0 +1,21 @@
+// abstract class representing a generic location
+
+public abstract class Location
+{
+    protected String id;
+    protected String address;
+    protected double latitude;
+    protected double longitude;
+
+    public Location(String id, String address, double latitude, double longitude)
+    {
+        this.id = id;
+        this.address = address;
+        this.latitude = latitude;
+        this.longitude = longitude;
+    }
+
+
+    // TODO getters and setters need to be coded
+
+}

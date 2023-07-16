@@ -1,0 +1,30 @@
+import java.util.Collections;
+import java.utilComparator;
+import java.util.List;
+import java.util.Scanner;
+
+public class Main 
+{
+    public static void main(String[] args)
+    {
+        LocationDatabase database = new MockDatabase();
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter your ZIP code:");
+        String userZip = scanner.nextLine();
+
+        //TODO get the user's location. 
+
+
+        //TODO calculate the distance to each store
+
+
+        //TODO sort the store by distance
+
+        
+
+
+    }
+
+
+}
